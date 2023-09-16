@@ -4,6 +4,15 @@
 The E-Commerce Back End is a web application that serves as the back end for an internet retail company's e-commerce website. It provides the necessary infrastructure to manage products, categories, and tags in a MySQL database using the Sequelize ORM (Object-Relational Mapping). This back end is designed to empower your e-commerce business by leveraging the latest technologies, allowing you to compete effectively in the online retail space.
 
 ## Features
+Database Connectivity: Set up the application to connect to a MySQL database using Sequelize.
+
+Database Schema and Seeding: Create a database schema and seed it with test data to populate the development database.
+
+Server Start-Up: Implement a command to start the server, which should also sync Sequelize models with the MySQL database.
+
+API Routes: Create API routes for retrieving data about categories, products, and tags.
+
+API Testing: Use tools like Insomnia to test API endpoints for GET, POST, PUT, and DELETE operations on categories, products, and tags.
 
 ## Installation
 Clone the repository to your local machine.
